@@ -1,0 +1,7 @@
+services:
+  pochidb:
+    build: Docker/.
+    ports:
+      - "80:80"
+    volumes:
+      - .:/projects
